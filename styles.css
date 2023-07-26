@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'XoloniumRegular', sans-serif;
+    /* overflow: hidden; */
+    
+}
+
+.container {
+    display: flex;
+}
+
+.leftbox {
+    background-image: url("./img.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;  
+}
+
+.rightbox {
+    background-color: #520052;
+    flex: 1;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px; /* Add negative margin to move the content up */
+
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(255, 254, 254, 0.7);
+    position: relative;
+    top: 75vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center}
+
+    .pic{
+        
+        height: 10vh;
+    }
+    .text{
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: whitesmoke;
+        font-weight: normal;
+        text-decoration: none solid rgb(68, 68, 68);
+        font-style: italic;
+        font-variant: small-caps;
+        text-transform: uppercase;
+    }
+    p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-top: 150px;    }
+
+        .form{
+            display: flex;
+            flex-flow: row wrap;
+            gap: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .input{
+            display: flex;
+            flex-flow: column wrap;
+            width: 40%;
+            font-size: 0.7rem;
+            opacity: 50%;
+        }
+        
+        .form-title{
+            width: 100%;
+            font-size: 2vw;
+            font-weight: 500;
+            color: whitesmoke;
+
+        }
+        .form .input label {
+            color: white;
+            font-size: 20px;
+        }
+        
+        
+        input{
+            background-color: whitesmoke;
+            border: 1px solid white;
+            border-radius: 3px;
+        }
+        
+        
+        input:focus{
+            
+            outline-color: aliceblue;
+            border: 2px solid whitesmoke;
+        }
+        
+        button{
+            background-color: rgba(0, 0, 0, 0);
+            font-weight: 700;
+            font-size: 1.2em;
+            border: 2px solid purple;
+            border-radius: 5px;
+            padding: 10px 40px;
+            margin: 40px 0;
+        }
+        
+        button:hover{
+            background-color: lightpink;
+            color: black;
+            
+        }
+
+        .login{
+            display: flex;
+            gap: 5px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: var(--color);
+            font-weight: 700;
+        }
+        
+        a:hover{
+            color: white;
+        }
